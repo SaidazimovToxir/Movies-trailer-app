@@ -13,11 +13,11 @@ class MovieApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        // theme: ThemeData.from(
-        //   colorScheme: ColorScheme.fromSwatch(
-        //     backgroundColor: const Color(0xff05001e),
-        //   ),
-        // ),
-        home: RatingBar());
+        theme: ThemeData.from(
+          colorScheme: ColorScheme.fromSwatch(
+            backgroundColor: const Color(0xff05001e),
+          ),
+        ),
+        home: FirstPage());
   }
 }
